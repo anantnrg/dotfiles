@@ -1,0 +1,53 @@
+(defwidget desk_tray []
+  (box :class "desk_tray" :space-evenly "false" :orientation "v" :spacing 3
+    (usage_box)
+    (button_box)
+  )
+)
+
+(defwidget usage_box [] 
+  (box :class "usage_box" :space-evenly "true" :orientation "h" :spacing 3
+    (circular-progress :class "cpu_progress" 
+      :value {round(cpu_usage, 0)} 
+      :thickness 10
+      :clockwise true
+      (label :text " " :class "cpu_progress_text"))
+    (circular-progress :class "ram_progress" 
+      :value mem_usage 
+      :thickness 10
+      :clockwise true
+      (label :text " 󰘚" :class "ram_progress_text"))
+  )
+)
+
+(defwidget button_box []
+  (box :class "button_box" :space-evenly "true" :orientation "h" :spacing 3
+    (box :class "button_box_btn" :space-evenly "true"
+      (box :space-evenly "true" :orientation "v" 
+        (image :path "./assets/package.svg" :image-width 32 :image-height 32)
+        (label :class "button_box_text button_box_text_1" :text updates)))
+    (box :class "button_box_btn" :space-evenly "true"
+      (eventbox :onclick "pamixer -t" :onrightclick "pavucontrol &"
+        (box :space-evenly "true" :orientation "v"
+          (image :path {volume == "muted" ? "./assets/volume_off.svg" : "./assets/volume_on.svg"} :image-width 32 :image-height 32)
+          (label :class "button_box_text button_box_text_2" :text {volume + "%"}))))
+    (box :class "button_box_btn button_box_btn_3" :space-evenly "true"
+      (box :space-evenly "true" :orientation "v"
+        (image :path {network ? "./assets/wifi_on.svg" : "./assets/wifi_off.svg"} :image-width 32 :image-height 32)
+        (label :class "button_box_text button_box_text_3" :text {network ? "Online" : "Offline"})))
+  )
+)
+
+(defwidget powermenu []
+  (box :class "powermenu" :space-evenly "true" :orientation "h" :spacing 3
+    (button :class "powermenu_btn" :space-evenly "true" :onclick "bspc quit"
+      (image :path "./assets/logout.svg" :image-width 32 :image-height 32)
+    )
+    (button :class "powermenu_btn" :space-evenly "true" :onclick "sudo reboot"
+      (image :path "./assets/restart.svg" :image-width 32 :image-height 32)
+    )
+    (button :class "powermenu_btn button_box_btn_3" :space-evenly "true" :onclick "sudo poweroff"
+      (image :path "./assets/poweroff.svg" :image-width 32 :image-height 32)
+    )
+  )
+)

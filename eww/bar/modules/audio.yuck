@@ -1,0 +1,6 @@
+(defwidget audio []
+  (box :space-evenly false :class "widget"
+    (label :class "bar_text bar_volume bar_icon" :text {volume == "muted" ? "󰖁 " : "󰕾 "})
+    (label :class "bar_text bar_volume" :text volume)
+  )
+)

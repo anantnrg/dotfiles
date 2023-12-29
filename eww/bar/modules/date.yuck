@@ -1,0 +1,10 @@
+(defwidget date []
+  (box :space-evenly false :class "widget"
+    (label :class "bar_text bar_date bar_icon" :text " ")
+    (label :class "bar_text bar_date" :text day)
+    (label :class "bar_text bar_date" :text ", ")
+    (label :class "bar_text bar_date" :text bar_month)
+    (label :class "bar_text bar_date" :text " ")
+    (label :class "bar_text bar_date" :text bar_date)
+  )
+)

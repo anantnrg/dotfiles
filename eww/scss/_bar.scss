@@ -1,0 +1,37 @@
+@use 'variables' as v;
+
+.bar_cont {
+	background: transparent;
+	padding: 10px;
+}
+
+.left, .center, .right {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.widget {
+	margin-right: 30px;
+}
+
+.bar_icon {
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+.bar_text {
+	font-weight: 800;
+}
+
+.bar_date {
+	color: v.$mauve;
+}
+
+.bar_updates {
+	color: v.$red;
+}
+
+.bar_network {
+	color: v.$blue;
+}

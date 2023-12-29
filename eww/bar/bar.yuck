@@ -1,0 +1,29 @@
+(include './bar/modules/cpu.yuck')
+(include './bar/modules/date.yuck')
+(include './bar/modules/network.yuck')
+(include './bar/modules/audio.yuck')
+(include './bar/modules/clock.yuck')
+(include './bar/modules/updates.yuck')
+(include './bar/modules/memory.yuck')
+(include './bar/modules/workspaces.yuck')
+
+(defwidget left []
+  (box :class "left" :halign "start" :hexpand false :vexpand false
+    (date)
+    (updates)
+    (audio)
+  )
+)
+(defwidget center []
+  (box :class "center" :halign "start" :hexpand false :vexpand false
+    ;; (workspaces)
+  )
+)
+(defwidget right []
+  (box :class "right" :halign "end" :hexpand false :vexpand false
+    (network)
+    ;; (cpu)
+    ;; (memory)
+    ;; (time)
+  )
+)

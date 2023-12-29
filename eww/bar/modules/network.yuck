@@ -1,0 +1,6 @@
+(defwidget network []
+  (box :space-evenly false
+    (label :class "bar_text bar_network bar_icon" :text {network ? "󰤨 ": "󰤭 "})
+    (label :class "bar_text bar_network" :text {network ? "Online" : "Offline"})
+  )
+)
