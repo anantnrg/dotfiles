@@ -41,12 +41,12 @@ format = '[$all_status$ahead_behind ]($style)'
 [nodejs]
 symbol = ""
 style = "bg:red fg:base bold"
-format = '[ $symbol ](bg:red fg:base)[($version) ]'
+format = '[ $symbol ](bg:red fg:base bold)[NodeJS $version ]($style)'
 
 [rust]
 symbol = ""
 style = "bg:red fg:base bold"
-format = '[ $symbol ](bg:red fg:base)[($version) ]($style)'
+format = '[ $symbol ](bg:red fg:base bold)[Rust $version ]($style)'
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
