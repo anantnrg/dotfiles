@@ -1,0 +1,73 @@
+config = let_statements , "{" , { (statement | let_statement) , [ ";" | "," ] } , "}" ;
+
+let_statements = { let_statement , [ ";" | "," ] } ;
+
+statement = identifier , "=" , value ;
+
+let_statement = "let" , identifier , "=" , value ;
+
+value = number | boolean | string | struct | array | version | expression | variable | measurement | datetime ;
+
+struct = "{" , { statement , [ ";" | "," ] } , "}" ;
+
+array = "[" , value , { "," , value } , "]" ;
+
+version = digit, { "." , digit } ;
+
+expression = "(" , term , { ("+" | "-") , term } , ")" ;
+
+term = factor , { ("*" | "/") , factor } ;
+
+factor = number | identifier | "(" , expression , ")" ;
+
+variable = "$" , identifier ;
+
+measurement = number , unit ;
+
+unit =
+    "kg" | "m" | "s" | "A" | "K" | "mol" | "cd" |
+    "mm" | "cm" | "km" |
+    "g" | "mg" | "μg" |
+    "L" | "mL" | "μL" |
+    "Hz" | "kHz" | "MHz" | "GHz" |
+    "N" | "kN" | "mN" |
+    "Pa" | "kPa" | "MPa" | "GPa" |
+    "J" | "kJ" | "MJ" | "GJ" |
+    "W" | "kW" | "MW" | "GW" |
+    "C" | "mC" | "μC" |
+    "V" | "mV" | "μV" |
+    "F" | "mF" | "μF" |
+    "Ω" | "mΩ" | "kΩ" | "MΩ" |
+    "S" | "mS" | "μS" |
+    "T" | "mT" | "μT" |
+    "H" | "mH" | "μH" |
+    "rad" | "deg" | "sr" |
+    "min" | "h" | "d" |
+    "Bq" | "kBq" | "MBq" | "GBq" |
+    "C" | "Ci" | "mCi" | "μCi" |
+    "kat" | "mol/s" |
+    "lm" | "lx" |
+    "Np" | "B" | "dB" |
+    "dBm" | "dBW";
+
+identifier = letter , { letter | digit | "_" } ;
+
+datetime = date | time | date_time ;
+
+date = digit , digit , "/" , digit , digit , "/" , digit , digit , digit , digit ;
+
+time = digit , digit , ":" , digit , digit , ":" , digit , digit ;
+
+date_time = date , " " , time ;
+
+number = digit , { digit } | digit , { digit } , "." , { digit } ;
+
+boolean = "true" | "false" ;
+
+string = "\"" , { character } , "\"" ;
+
+character = any printable ASCII character except "\"" ;
+
+letter = "a" | "b" | ... | "z" | "A" | "B" | ... | "Z" ;
+
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;

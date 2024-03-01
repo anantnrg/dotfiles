@@ -1,0 +1,20 @@
+let home = "/home/user"
+
+{
+    version = 0.0.1,
+    number = 2,
+    boolean = true,
+    string = "this is a string",
+    string_literal = 'this is \na string literal',
+    struct = {
+        key = "structs can hold all other values"
+    },
+    array = [
+        "list of elements"
+    ],
+    expr = (10 * 3),
+    path = "$home/.config",
+    length = 10m,
+ //   date = 10/12/2024,
+ //   time = 10:00:10,
+}

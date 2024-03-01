@@ -1,0 +1,11 @@
+lotta things
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   videos/rust-part-5/src/scenes/00_intro.meta
+#	modified:   videos/rust-part-5/src/scenes/00_intro.tsx
+#

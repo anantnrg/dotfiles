@@ -1,0 +1,52 @@
+name: Rust
+extensions: 
+  - rs
+
+syntax:
+  - keywords:
+    - general:
+      - match: '\b(?:as|fn|impl|match|move|mut|ref|return|unsafe|use|where)\b'
+      - scope: keywords.normal
+    - control-flow:
+      - match: '\b(?:break|continue|for|if|else|in|loop|while)\b'
+      - scope: keywords.control-flow
+    - visibility:
+      - match: '\b(?:pub|extern|priv)\b'
+      - scope: keywords.visibility
+    - module:
+      - match: '\b(?:mod|crate|super)\b'
+      - scope: keywords.module
+    - storage:
+      - match: '\b(?:let|const|mut|enum|static|struct|trait|type)\b'
+      - scope: keywords.storage
+    - special:
+      - match: '(?:(?<=\s)|^)(?:self|Self|async|await|dyn|''static)(?=\s|$)'
+      - scope: keywords.special
+    - reserved:
+      - match: '\b(?:abstract|become|box|do|in|macro|override|typeof|unsized|virtual|yield|try)\b'
+      - scope: keywords.reserved
+  - punctuation:
+      - square:
+        - match: '(?:\[|\])'
+        - scope: punctuation.square-brackets
+      - parens:
+        - match: '(?:\(|\))'
+        - scope: punctuation.parens
+      - curly:
+        - match: '(?:\{|\})'
+        - scope: punctuation.curly
+      - angle:
+        - match: '(?:\<|\>)'
+        - scope: punctuation.angle
+      - pipe:
+        - match: '(?:\||)'
+        - scope: punctuation.pipe
+      - backslash:
+        - match: '(?:\\|)'
+        - scope: punctuation.backslash
+      - forward-slash:
+        - match: '(?:\/|)'
+        - scope: punctuation.forward-slash
+      - ampersand:
+        - match: '(?:\&|)'
+        - scope: punctuation.forward-slash

@@ -1,0 +1,46 @@
+2024-02-29 23:38:00.284 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4959)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at w.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.de (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30422)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-29 23:38:07.845 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4959)
+    at E.t (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at w.value (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.de (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30422)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-29 23:38:13.212 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2024-02-29 23:38:13.213 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2024-02-29 23:38:13.214 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-02-29 23:38:13.343 [info] Installing extension: rust-lang.rust-analyzer
+2024-02-29 23:38:13.402 [info] Installing extension: catppuccin.catppuccin-vsc
+2024-02-29 23:38:13.403 [info] Installing extension: catppuccin.catppuccin-vsc-icons
+2024-02-29 23:38:17.768 [warning] Extension signature verification failed with error 'UnknownError': rust-lang.rust-analyzer
+2024-02-29 23:38:17.768 [warning] Extension signature verification failed with error 'UnknownError': catppuccin.catppuccin-vsc-icons
+2024-02-29 23:38:17.769 [warning] Extension signature verification failed with error 'UnknownError': catppuccin.catppuccin-vsc
+2024-02-29 23:38:17.803 [info] Extracted extension to file:///home/mik3y/.vscode/extensions/catppuccin.catppuccin-vsc-3.11.2: catppuccin.catppuccin-vsc
+2024-02-29 23:38:17.876 [info] Renamed to /home/mik3y/.vscode/extensions/catppuccin.catppuccin-vsc-3.11.2
+2024-02-29 23:38:17.878 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2024-02-29 23:38:17.962 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2024-02-29 23:38:17.965 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-3.11.1
+2024-02-29 23:38:18.232 [info] Extracted extension to file:///home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1860-linux-x64: rust-lang.rust-analyzer
+2024-02-29 23:38:18.578 [info] Renamed to /home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1860-linux-x64
+2024-02-29 23:38:18.580 [info] Extracting extension completed. rust-lang.rust-analyzer
+2024-02-29 23:38:18.989 [info] Extension installed successfully: rust-lang.rust-analyzer
+2024-02-29 23:38:18.992 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1850-linux-x64
+2024-02-29 23:38:18.996 [info] Extracted extension to file:///home/mik3y/.vscode/extensions/catppuccin.catppuccin-vsc-icons-1.9.1: catppuccin.catppuccin-vsc-icons
+2024-02-29 23:38:19.282 [info] Renamed to /home/mik3y/.vscode/extensions/catppuccin.catppuccin-vsc-icons-1.9.1
+2024-02-29 23:38:19.283 [info] Extracting extension completed. catppuccin.catppuccin-vsc-icons
+2024-02-29 23:38:19.464 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons
+2024-02-29 23:38:19.467 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-icons-1.9.0

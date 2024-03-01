@@ -1,0 +1,67 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.accessibilitySupport": "off",
+    "catppuccin.accentColor": "red",
+    "catppuccin.bracketMode": "neovim",
+    "window.menuBarVisibility": "hidden",
+    "editor.lineHeight": 32,
+    "editor.suggestLineHeight": 40,
+    "breadcrumbs.enabled": false,
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "editor.mouseWheelScrollSensitivity": 3,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.wordWrap": "on",
+    "editor.fontLigatures": true,
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.stickyScroll.enabled": true,
+    "editor.fontWeight": "600",
+    "breadcrumbs.filePath": "off",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "explorer.incrementalNaming": "smart",
+    "workbench.productIconTheme": "feather-vscode",
+    "workbench.sideBar.location": "right",
+    "prettier.configPath": ".prettierc",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "markdown-preview-enhanced.revealjsTheme": "night.css",
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "vim.leader": "<space>",
+    
+}

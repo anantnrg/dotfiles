@@ -1,0 +1,6 @@
+2024-02-24 14:14:49.482 [info] Started local extension host with pid 2063.
+2024-02-24 14:15:00.271 [info] [perf] Render performance baseline is 25ms
+2024-02-24 14:15:01.686 [info] Extension host (LocalProcess pid: 2063) is unresponsive.
+2024-02-24 14:15:02.195 [info] Extension host (LocalProcess pid: 2063) is responsive.
+2024-02-24 14:15:02.195 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-02-24 14:15:04.330 [warning] Semantic token with invalid length detected at lineNumber 42, column 63

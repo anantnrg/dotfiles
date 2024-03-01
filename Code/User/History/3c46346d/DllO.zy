@@ -1,0 +1,6 @@
+{
+    number = 2,
+    string = "this is a string",
+    string_literal = "this is \na string literal",
+    
+}

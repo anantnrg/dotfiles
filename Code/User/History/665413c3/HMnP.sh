@@ -1,0 +1,3 @@
+waypaper --restore
+waybar
+swaync

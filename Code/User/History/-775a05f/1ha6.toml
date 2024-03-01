@@ -1,0 +1,15 @@
+[package]
+name = "ui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.79"
+freya = { git = "https://github.com/synkdev/freya", branch = "main" }
+dioxus = { git = "https://github.com/dioxuslabs/dioxus", branch = "master", features = [
+    "macro",
+    "hooks",
+], default-features = false }
+winit = "0.29.10"
+crop = "0.4.2"
+synk_core = { path = "../core", package = "core" }

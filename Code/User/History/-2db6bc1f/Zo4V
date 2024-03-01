@@ -1,0 +1,15 @@
+smth
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 5 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   Cargo.lock
+#	modified:   Cargo.toml
+#	modified:   crates/ui/Cargo.toml
+#	modified:   crates/ui/src/color.rs
+#	modified:   crates/ui/src/window.rs
+#

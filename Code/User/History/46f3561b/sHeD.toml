@@ -1,0 +1,9 @@
+[package]
+name = "photon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vulkano = { git = "https://github.com/vulkano-rs/vulkano" }
+vulkano-shaders = "0.34.0"
+winit = "0.28"

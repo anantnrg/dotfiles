@@ -1,0 +1,387 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jan 17 20:18:50 2024
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+STARSHIP_SESSION_KEY = 5904855818610239
+# makefile (from 'Makefile', line 3)
+BINDIR = $(PREFIX)/bin
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/mik3y/projects/repos/strata_nemesis
+# environment
+LC_ADDRESS = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+GTK_THEME = 'Catppuccin-Mocha-Standard-Red-Dark:dark'
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/mik3y/projects/repos/strata_nemesis
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/mik3y
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/mik3y/.config/Code/CachedData/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+ 
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS := /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+HYPRLAND_INSTANCE_SIGNATURE = 191fa587f4daf9f3bf3e3f791de9e2dc5e95a459_1705475526
+# makefile (from 'Makefile', line 13)
+TARGET_BIN = $(DESTDIR)$(BINDIR)/$(APPNAME)
+# makefile
+CURDIR := /home/mik3y/projects/repos/strata_nemesis
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 1873954
+# environment
+MOZ_ENABLE_WAYLAND = 1
+# environment
+XDG_SESSION_TYPE = wayland
+# makefile (from 'Makefile', line 7)
+APPNAME = strata
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 4)
+SHAREDIR = $(PREFIX)/share
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'Makefile', line 8)
+LUA_LIB = lua
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+KITTY_PUBLIC_KEY = 1:iTJo{>smB;*nhmm_m`%|CYnk}bDPvUBg%X&FMh0D
+# environment
+SHLVL = 3
+# environment
+TERMINFO = /usr/lib/kitty/terminfo
+# makefile (from 'Makefile', line 18)
+ARGS = --release
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_US.UTF-8
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+XDG_BACKEND = wayland
+# makefile (from 'Makefile', line 1)
+PREFIX = /usr
+# makefile (from 'Makefile', line 5)
+XDG_CONFIG_HOME = $(HOME)/.config
+# environment
+_JAVA_AWT_WM_NONREPARENTING = 1
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = Hyprland
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = hyprland
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = Hyprland
+# makefile (from 'Makefile', line 2)
+SYSCONFDIR = /etc
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = firefox
+# environment
+LOGNAME = mik3y
+# environment
+HYPRLAND_CMD = Hyprland
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+KITTY_WINDOW_ID = 1
+# environment
+EDITOR = nano
+# environment
+DISPLAY = :1
+# environment
+USER = mik3y
+# default
+MAKE_VERSION := 4.4.1
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+STARSHIP_SHELL = fish
+# environment
+KITTY_PID = 3832488
+# environment
+DEBUGINFOD_URLS = https://debuginfod.archlinux.org 
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+COLORTERM = truecolor
+# makefile (from 'Makefile', line 14)
+TARGET_LIB = $(DESTDIR)$(SHAREDIR)/$(APPNAME)/
+# environment
+XDG_SESSION_CLASS = user
+# environment
+WLR_NO_HARDWARE_CURSORS = 1
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/mik3y
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-65fa1859-1.85-main.sock
+# environment
+TERM = xterm-kitty
+# environment
+XDG_SESSION_ID = 1
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 17)
+TARGET = release
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 9)
+ID = com.strata.Compositor
+# makefile (from 'Makefile', line 11)
+DEBUG = 0
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver jobserver-fifo output-sync check-symlink guile load
+# environment
+KITTY_INSTALLATION_DIR = /usr/lib/kitty
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=10/160=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 36, inode 2369084): 27 files, no impossibilities.
+
+# 27 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2024-01-17 12:25:52.405022072
+#  File has been updated.
+#  Successfully updated.
+
+strata:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := strata
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=6/12=50%
+#  recipe to execute (from 'Makefile', line 24):
+	cargo build $(ARGS)
+
+install_default_config:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	mkdir -p "$(XDG_CONFIG_HOME)/$(APPNAME)"
+	cp "./strata.default.lua" "$(XDG_CONFIG_HOME)/$(APPNAME)/config.lua"
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+ 
+#  recipe to execute (from 'Makefile', line 41):
+	rm -f "$(TARGET_BIN)"
+	rm -rf "$(TARGET_LIB)"
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	cargo clean
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: strata
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+install: strata install_lib install_default_config
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	install -Dm0755 "target/$(TARGET)/$(APPNAME)" "$(TARGET_BIN)"
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean install uninstall
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install_lib:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 33):
+	mkdir -p "$(TARGET_LIB)"
+	cp -r "lua" "$(TARGET_LIB)"
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/35=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 40 / storage = 422 B / avg = 10 B
+# current buf: size = 8162 B / used = 422 B / count = 40 / avg = 10 B
+
+# strcache performance: lookups = 61 / hit rate = 34%
+# hash-table stats:
+# Load=40/8192=0%, Rehash=0, Collisions=0/61=0%
+# Finished Make data base on Wed Jan 17 20:18:50 2024
+
+ 

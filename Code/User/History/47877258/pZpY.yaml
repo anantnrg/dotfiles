@@ -1,0 +1,80 @@
+name: Rust
+extensions:
+  - rs
+
+syntax:
+  keywords:
+    - match: '\b(?:as|fn|impl|match|move|mut|ref|return|unsafe|use|where)\b'
+      scope: keywords.normal
+      comment: "Normal keywords"
+
+    - match: '\b(?:break|continue|for|if|else|in|loop|while)\b'
+      scope: keywords.control-flow
+      comment: "Control flow keywords"
+
+    - match: '\b(?:pub|extern|priv)\b'
+      scope: keywords.visibility
+      comment: "Visibility keywords"
+
+    - match: '\b(?:mod|crate|super)\b'
+      scope: keywords.module
+      comment: "Module keywords"
+
+    - match: '\b(?:let|const|mut|enum|static|struct|trait|type)\b'
+      scope: keywords.storage
+      comment: "Storage keywords"
+
+    - match: '(?:(?<=\s)|^)(?:self|Self|async|await|dyn|''static)(?=\s|$)'
+      scope: keywords.special
+      comment: "Special keywords"
+
+    - match: '\b(?:abstract|become|box|do|in|macro|override|typeof|unsized|virtual|yield|try)\b'
+      scope: keywords.reserved
+      comment: "Reserved keywords"
+
+  punctuation:
+    - match: '(?:\[|\])'
+      scope: punctuation.square-brackets
+    - match: '(?:\(|\))'
+      scope: punctuation.parens
+    - match: '(?:\{|\})'
+      scope: punctuation.curly
+    - match: '(?:\<|\>)'
+      scope: punctuation.angle
+    - match: '(?:\||)'
+      scope: punctuation.pipe
+    - match: '(?:\\|)'
+      scope: punctuation.backslash
+    - match: '(?:\/|)'
+      scope: punctuation.forward-slash
+    - match: '(?:\&|)'
+      scope: punctuation.ampersand
+    - match: '(?:\!|)'
+      scope: punctuation.bang
+    - match: '(?:\+|)'
+      scope: punctuation.plus
+    - match: '(?:\-|)'
+      scope: punctuation.minus
+    - match: '(?:\*|)'
+      scope: punctuation.asterisk
+    - match: '(?:\%|)'
+      scope: punctuation.modulus
+  data:
+    - match: '"([^"\\]|\\.)*"'
+      scope: data.string
+    - match: '(?:\'')'
+      scope: data.char
+    - match: '\b(?:\d+)\b'
+      scope: data.integer
+    - match: '\b(?:\d+\.\d+)\b'
+      scope: data.float
+    - match: '\b(?:0x[0-9A-Fa-f]+)\b'
+      scope: data.hex
+    - match: '\b(?:0b[01]+)\b'
+      scope: data.binary
+  comment:
+    - match: "//.*$"
+      scope: comment.line
+    - match: '/\*([^*]|(\*[^/]))*\*/'
+      scope: comment.block
+    

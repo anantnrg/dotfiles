@@ -1,0 +1,56 @@
+(include "./vars.yuck")
+(include "./widgets/desk_clock.yuck")
+(include "./widgets/desk_tray.yuck")
+(include "./bar/bar.yuck")
+
+(defwindow desk_clock
+  :monitor 0
+  :geometry (geometry :x "12px"
+    :y "20px"
+    :width "300px"
+    :height "100px"
+  :anchor "right top")
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (box :class "desk_tray"
+    (desk_clock)))
+
+(defwindow usage_box
+  :monitor 0
+  :geometry (geometry :x "20px"
+    :y "-00px"
+    :width "600px"
+    :height "200px"
+  :anchor "right bottom")
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (box :class "desk_tray"
+    (usage_box)))
+
+(defwindow button_box
+  :monitor 0
+  :geometry (geometry :x "-20px"
+    :y "310px"
+    :width "700px"
+    :height "100px"
+  :anchor "right center")
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (box :class "desk_tray"
+    (button_box)))
+
+(defwindow powermenu
+  :monitor 0
+  :geometry (geometry :x "-20px"
+    :y "-20px"
+    :width "700px"
+    :height "100px"
+  :anchor "right bottom")
+  :stacking "bg"
+  :exclusive false
+  :focusable false
+  (box :class "desk_tray"
+    (powermenu)))

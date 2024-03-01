@@ -1,0 +1,75 @@
+@use 'variables' as v;
+
+.usage_box,
+.button_box,
+.volume_slider,
+.powermenu {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	background-color: transparent;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.button_box {
+	margin-bottom: 10px;
+}
+
+.cpu_progress {
+	background-color: v.$surface0;
+	color: v.$green;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+.cpu_progress_text {
+	color: v.$green;
+	font-size: 42px;
+}
+
+.ram_progress_text {
+	color: v.$yellow;
+	font-size: 46px;
+}
+
+.ram_progress {
+	background-color: v.$surface0;
+	color: v.$yellow;
+	margin-left: 15px;
+}
+
+.button_box_btn,
+.powermenu_btn {
+	background-color: v.$base;
+	margin-right: 20px;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.powermenu_btn {
+	padding: 54px;
+	margin-bottom: 10px;
+}
+
+.button_box_btn_3 {
+	margin-right: 0;
+}
+
+.button_box_text {
+	font-weight: 700;
+	margin-top: 16px;
+	font-size: 18px;
+}
+
+.button_box_text_1 {
+	color: #cba6f7;
+}
+
+.button_box_text_2 {
+	color: #f5e0dc;
+}
+
+.button_box_text_3 {
+	color: #74c7ec;
+}

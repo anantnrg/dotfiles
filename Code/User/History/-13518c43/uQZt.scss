@@ -1,0 +1,33 @@
+@use 'variables' as v;
+
+.desk_clock {
+	background: v.$mantle;
+	color: v.$text;
+	padding: 26px;
+	border-radius: 10px;
+}
+
+.desk_time {
+	font-size: 102px;
+	font-weight: bold;
+	color: v.$red;
+}
+
+.desk_time_text {
+	color: v.$text;
+}
+
+.desk_date {
+	font-size: 28px;
+	font-weight: 800;
+}
+
+.desk_date_day,
+.desk_date_month,
+.desk_date_date {
+	color: v.$mauve;
+}
+
+.desk_date_month {
+	margin-right: 16px;
+}

@@ -1,0 +1,73 @@
+2024-02-24 14:53:41.871 [info] Started local extension host with pid 2009.
+2024-02-24 14:53:49.297 [info] [perf] Render performance baseline is 25ms
+2024-02-24 14:53:52.409 [info] Extension host (LocalProcess pid: 2009) is unresponsive.
+2024-02-24 14:53:54.437 [info] Extension host (LocalProcess pid: 2009) is responsive.
+2024-02-24 14:53:54.437 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-02-24 14:53:56.372 [warning] Semantic token with invalid length detected at lineNumber 42, column 63
+2024-02-24 16:56:58.394 [error] Canceled: Canceled
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:13290)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at P.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:5965)
+	at A.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:6375)
+	at Object.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4355)
+	at d.N (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4832)
+	at d.L (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3689)
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2242)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:8051)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6331)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-24 20:57:07.386 [error] Canceled: Canceled
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:13290)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at P.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:5965)
+	at A.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:6375)
+	at Object.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4355)
+	at d.N (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4832)
+	at d.L (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3689)
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2242)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:8051)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6331)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-24 21:49:34.893 [error] Canceled: Canceled
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:13290)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at P.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:5965)
+	at A.cancel (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:6375)
+	at Object.G (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4355)
+	at d.N (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4832)
+	at d.L (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3689)
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2242)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at g.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:8051)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6331)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-24 22:36:43.683 [warning] Semantic token with invalid length detected at lineNumber 104, column 1
+2024-02-24 22:39:17.185 [info] Started local extension host with pid 46564.
+2024-02-24 22:39:22.896 [info] [perf] Render performance baseline is 29ms
+2024-02-24 22:39:33.258 [warning] Semantic token with invalid length detected at lineNumber 50, column 59

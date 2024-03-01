@@ -1,0 +1,40 @@
+window {
+    margin: 5px;
+    border: 2px solid #f38ba8;
+    background-color: #1e1e2e;
+    border-radius: 10px;
+}
+
+#outer-box {
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #1e1e2e;
+}
+
+#input {
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid #313244;
+    background-color: #313244;
+    border-radius: 10px;
+}
+
+#inner-box {
+    margin: 0 20px;
+    border: 2px solid #313244;
+    background-color: #313244;
+    border-radius: 10px;
+}
+
+#scroll {
+    margin: 0 20px;
+    border: 2px solid #313244;
+    background-color: #313244;
+    border-radius: 10px;
+}
+
+#text {
+    margin: 5px;
+    border: 2px solid cyan;
+    background-color: cyan;
+}

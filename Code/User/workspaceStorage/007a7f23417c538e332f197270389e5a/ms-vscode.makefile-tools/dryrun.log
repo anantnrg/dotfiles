@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mik3y/projects/repos/strata'
+cargo build --release
+make: Leaving directory '/home/mik3y/projects/repos/strata'
+ 

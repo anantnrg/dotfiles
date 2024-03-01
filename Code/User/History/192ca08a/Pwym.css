@@ -1,0 +1,109 @@
+* {
+    font-family: FontAwesome, "JetBrains Mono", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-network,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#taskbar,
+#custom-notis,
+#custom-powermenu,
+#mpd {
+    padding: 0px 10px;
+    background-color: #1e1e2e;
+    border-radius: 8px;
+    color: #cdd6f4;
+    min-width: 80px;
+    border: 2px solid #f38ba8;
+}
+
+#custom-notis,
+#custom-powermenu {
+    min-width: 30px;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 14px;
+    color: #f5c2e7;
+}
+
+#custom-powermenu {
+    color: #74c7ec;
+}
+
+#workspaces {
+    background-color: #1e1e2e;
+    border-radius: 8px;
+    border: 2px solid #f38ba8;
+    color: #cdd6f4;
+    font-size: 14px;
+}
+
+#workspaces button {
+    padding-left: 8px;
+    padding-right: 12px;
+    color: #cdd6f4;
+    transition: padding 0.2s;
+    margin: 5px;
+}
+
+#workspaces button.active {
+    background-color: #1e1e2e;
+    border: 1px solid #45475a;
+}
+
+#workspaces button.active {
+    border: 1px solid #45475a;
+    padding-left: 20px;
+    padding-right: 24px;
+    color: #f38ba8;
+    background-color: #313244;
+}
+
+#workspaces button.empty {
+    color: #7f849c;
+}
+
+#window {
+    margin: 0 0px;
+}
+
+#pulseaudio {
+    color: #fab387;
+}
+
+#custom-network {
+    color: #a6e3a1;
+}
+
+
+#cpu {
+    color: #94e2d5;
+}
+
+#memory {
+    color: #89b4fa;
+}
+
+#clock {
+    color: #f9e2af;
+}

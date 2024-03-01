@@ -1,0 +1,24 @@
+2024-02-24 14:14:57.517 [info] Extension host with pid 2063 started
+2024-02-24 14:14:57.517 [info] Skipping acquiring lock for /home/mik3y/.config/Code/User/workspaceStorage/3dbe1af6c19ac483a2415d11263c350b.
+2024-02-24 14:14:58.100 [info] ExtensionService#_doActivateExtension DioxusLabs.dioxus, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 14:14:58.553 [info] ExtensionService#_doActivateExtension evgeniypeshkov.syntax-highlighter, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 14:15:01.480 [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 14:15:02.054 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-24 14:15:03.207 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-24 14:15:04.325 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-24 14:15:04.348 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-24 14:15:09.087 [info] Not activating extension 'ms-vscode.makefile-tools': Timed out while searching for 'workspaceContains' pattern **/makefile,**/Makefile,**/GNUmakefile
+2024-02-24 14:15:09.087 [info] Not activating extension 'rust-lang.rust-analyzer': Timed out while searching for 'workspaceContains' pattern */Cargo.toml,*/rust-project.json
+2024-02-24 14:15:09.087 [info] Not activating extension 'serayuzgur.crates': Timed out while searching for 'workspaceContains' pattern */Cargo.toml
+2024-02-24 14:15:10.705 [info] ExtensionService#_doActivateExtension znck.grammarly, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-02-24 14:15:11.928 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-24 14:15:12.268 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:12.271 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:12.277 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:12.348 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:12.638 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:13.027 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:13.368 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:14.897 [info] ExtensionService#_doActivateExtension pest.pest-ide-tools, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:15.107 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:15:15.514 [info] Eager extensions activated

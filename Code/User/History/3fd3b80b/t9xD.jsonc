@@ -1,0 +1,104 @@
+{
+    "position": "top",
+    "layer": "top",
+    "margin-top": 12,
+    "height": 30,
+    "width": 1896,
+    "spacing": 12,
+    "modules-left": [
+        "custom/tray",
+        "pulseaudio",
+        "custom/network",
+        "wlr/taskbar"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "cpu",
+        "memory",
+        "clock",
+        "custom/notis"
+    ],
+    "hyprland/workspaces": {
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "󰨞",
+            "4": "󰉋",
+            "5": "󰙯",
+            "6": ""
+        },
+        "persistent-workspaces": {
+            "*": 6
+        }
+    },
+    "custom/tray": {
+        "format": "",
+        "on-click": "$HOME/.config/eww/toggle_tray.sh"
+    },
+    "custom/notis": {
+        "format": "󰂞",
+        "on-click": "swaync-client -t"
+    },
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 14,
+        "icon-theme": "Numix-Circle",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [
+            "kitty",
+            "Spotify"
+        ]
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}",
+        "format": "  {:%I:%M:%S %p}",
+        "interval": 1
+    },
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "  {}%"
+    },
+    "pulseaudio": {
+        "scroll-step": 1,
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/network": {
+        "format": "{icon}  {}",
+        "return-type": "json",
+        "format-icons": {
+            "online": "󰤨",
+            "offline": "󰤭"
+        },
+        "escape": true,
+        "exec": "bash $HOME/.config/waybar/network.sh 2> /dev/null"
+    }
+}

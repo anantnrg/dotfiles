@@ -1,0 +1,6 @@
+[Info  - 14:54:03] ESLint server is starting.
+[Info  - 14:54:04] ESLint server running in node v18.17.1
+[Info  - 14:54:04] ESLint server is running.
+[Info  - 22:54:43] ESLint library loaded from: /home/mik3y/videos/code/node_modules/eslint/lib/api.js
+Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.
+[Info  - 23:25:38] ESLint server stopped.

@@ -1,0 +1,5 @@
+2024-02-23 23:11:11.242 [info] Started local extension host with pid 1386.
+2024-02-23 23:11:22.419 [info] [perf] Render performance baseline is 26ms
+2024-02-23 23:11:24.411 [info] Extension host (LocalProcess pid: 1386) is unresponsive.
+2024-02-23 23:11:25.681 [info] Extension host (LocalProcess pid: 1386) is responsive.
+2024-02-23 23:11:25.681 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

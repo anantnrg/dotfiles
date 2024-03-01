@@ -1,0 +1,21 @@
+2024-02-25T09:07:40.253576Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/mik3y/projects/repos/vello/Cargo.toml", "--all-targets"], current_dir: Some("/home/mik3y/projects/repos/vello") }
+2024-02-25T09:07:40.849235Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/mik3y/projects/repos/vello/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/mik3y/projects/repos/vello/Cargo.toml, Some(Version { major: 1, minor: 76, patch: 0 }): Failed to run `cd "/home/mik3y/projects/repos/vello" && "cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/mik3y/projects/repos/vello/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error:     Blocking waiting for file lock on package cache
+    Updating crates.io index
+error: failed to select a version for `web-sys`.
+    ... required by package `wgpu v0.18.0`
+    ... which satisfies dependency `wgpu = "^0.18"` of package `shapes v0.0.1 (/home/mik3y/projects/repos/vello/examples/shapes)`
+versions that meet the requirements `^0.3.64` are: 0.3.67, 0.3.68, 0.3.66, 0.3.65, 0.3.64
+
+the package `wgpu` depends on `web-sys`, with features: `GpuComputePassTimestampWrite` but `web-sys` does not have these features.
+
+
+all possible versions conflict with previously selected packages.
+
+  previously selected package `web-sys v0.3.67`
+    ... which satisfies dependency `web-sys = "=0.3.67"` of package `with_winit v0.0.1 (/home/mik3y/projects/repos/vello/examples/with_winit)`
+
+failed to select a version for `web-sys` which could resolve this conflict
+
+
+2024-02-25T09:07:43.169311Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/mik3y/projects/repos/vello/Cargo.toml", "--all-targets"], current_dir: Some("/home/mik3y/projects/repos/vello") }

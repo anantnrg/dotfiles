@@ -1,0 +1,7 @@
+[package]
+name = "lexiq-lang-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lexiq = { git = "https://github.com/anantnrg/lexiq" }

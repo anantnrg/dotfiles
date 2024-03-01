@@ -1,0 +1,7 @@
+2024-02-29 23:37:57.959 [info] Started local extension host with pid 3820.
+2024-02-29 23:38:04.717 [info] [perf] Render performance baseline is 25ms
+2024-02-29 23:38:06.992 [info] Started local extension host with pid 3983.
+2024-02-29 23:38:09.669 [info] [perf] Render performance baseline is 25ms
+2024-02-29 23:39:33.553 [error] [text file model] handleSaveError(10) - exit - resulted in a save error: Error: Unable to write file '/home/mik3y/projects/repos/synk/Cargo.toml' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/mik3y/projects/repos/synk/Cargo.toml') file:///home/mik3y/projects/repos/synk/Cargo.toml
+2024-02-29 23:39:43.287 [error] [text file model] handleSaveError(10) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/mik3y/projects/repos/synk/Cargo.toml
+2024-02-29 23:39:46.815 [error] [text file model] handleSaveError(10) - exit - resulted in a save error: Error: Unable to write file '/home/mik3y/projects/repos/synk/Cargo.toml' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/mik3y/projects/repos/synk/Cargo.toml') file:///home/mik3y/projects/repos/synk/Cargo.toml

@@ -1,0 +1,8 @@
+2024-02-25T08:35:19.546585Z ERROR rust_analyzer::main_loop: FetchBuildDataError:
+error: failed to open: /home/mik3y/projects/repos/volt/target/debug/.cargo-lock
+
+Caused by:
+  Permission denied (os error 13)
+
+
+2024-02-25T08:35:21.141205Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/mik3y/projects/repos/volt/Cargo.toml", "--all-targets"], current_dir: Some("/home/mik3y/projects/repos/volt") }

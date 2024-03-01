@@ -117,9 +117,6 @@
         "Decor": {
             "enabled": false
         },
-        "DisableDMCallIdle": {
-            "enabled": false
-        },
         "EmoteCloner": {
             "enabled": false
         },
@@ -445,6 +442,9 @@
             "enabled": false
         },
         "XSOverlay": {
+            "enabled": false
+        },
+        "DisableCallIdle": {
             "enabled": false
         }
     },

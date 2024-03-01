@@ -1,0 +1,26 @@
+2024-02-24T10:46:29.400544Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/mik3y/projects/repos/volt/Cargo.toml", "--all-targets"], current_dir: Some("/home/mik3y/projects/repos/volt") }
+2024-02-24T10:46:29.447255Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/mik3y/projects/repos/volt/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/mik3y/projects/repos/volt/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 0, pre: Prerelease("nightly") }): Failed to run `cd "/home/mik3y/projects/repos/volt" && "cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/mik3y/projects/repos/volt/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: failed to parse manifest at `/home/mik3y/projects/repos/volt/Cargo.toml`
+
+Caused by:
+  TOML parse error at line 6, column 2
+    |
+  6 | f
+    |  ^
+  expected `.`, `=`
+
+
+2024-02-24T10:46:29.532309Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/mik3y/projects/repos/volt/Cargo.toml", "--all-targets"], current_dir: Some("/home/mik3y/projects/repos/volt") }
+2024-02-24T10:46:36.002843Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/mik3y/projects/repos/volt/Cargo.toml", "--all-targets"], current_dir: Some("/home/mik3y/projects/repos/volt") }
+2024-02-24T10:46:36.051880Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/mik3y/projects/repos/volt/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/mik3y/projects/repos/volt/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 0, pre: Prerelease("nightly") }): Failed to run `cd "/home/mik3y/projects/repos/volt" && "cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/mik3y/projects/repos/volt/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: failed to parse manifest at `/home/mik3y/projects/repos/volt/Cargo.toml`
+
+Caused by:
+  TOML parse error at line 7, column 9
+    |
+  7 | wayland 
+    |         ^
+  expected `.`, `=`
+
+
+2024-02-24T10:46:36.136837Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/mik3y/projects/repos/volt/Cargo.toml", "--all-targets"], current_dir: Some("/home/mik3y/projects/repos/volt") }

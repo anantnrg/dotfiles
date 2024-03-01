@@ -1,0 +1,572 @@
+2024-02-24 14:53:48.936 [info] Extension host with pid 2009 started
+2024-02-24 14:53:48.936 [info] Skipping acquiring lock for /home/mik3y/.config/Code/User/workspaceStorage/3dbe1af6c19ac483a2415d11263c350b.
+2024-02-24 14:53:48.941 [info] ExtensionService#_doActivateExtension DioxusLabs.dioxus, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 14:53:49.343 [info] ExtensionService#_doActivateExtension evgeniypeshkov.syntax-highlighter, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 14:53:53.502 [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 14:53:54.054 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-24 14:53:55.378 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-24 14:53:56.364 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-24 14:53:56.387 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-24 14:54:01.884 [info] Not activating extension 'ms-vscode.makefile-tools': Timed out while searching for 'workspaceContains' pattern **/makefile,**/Makefile,**/GNUmakefile
+2024-02-24 14:54:01.884 [info] Not activating extension 'rust-lang.rust-analyzer': Timed out while searching for 'workspaceContains' pattern */Cargo.toml,*/rust-project.json
+2024-02-24 14:54:01.884 [info] Not activating extension 'serayuzgur.crates': Timed out while searching for 'workspaceContains' pattern */Cargo.toml
+2024-02-24 14:54:02.376 [info] ExtensionService#_doActivateExtension znck.grammarly, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-02-24 14:54:03.562 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-24 14:54:04.209 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.210 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.215 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.216 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.277 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.283 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.306 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.332 [info] ExtensionService#_doActivateExtension pest.pest-ide-tools, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:04.340 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 14:54:05.006 [info] Eager extensions activated
+2024-02-24 15:38:51.532 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 15:39:12.121 [warning] TextEditor is closed/disposed
+2024-02-24 15:43:10.336 [warning] TextEditor is closed/disposed
+2024-02-24 15:43:41.961 [error] Error: INVALID code lens resolved, lacks command: rust-lang.rust-analyzer
+	at d.resolveCodeLens (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:87092)
+2024-02-24 15:44:34.134 [warning] TextEditor is closed/disposed
+2024-02-24 15:45:56.310 [warning] TextEditor is closed/disposed
+2024-02-24 15:46:06.582 [warning] TextEditor is closed/disposed
+2024-02-24 15:48:54.263 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 15:49:05.196 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 15:49:39.787 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 15:52:19.700 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 15:52:19.700 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 15:52:41.390 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:01:07.760 [warning] TextEditor is closed/disposed
+2024-02-24 16:09:29.625 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:09:29.625 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:10:32.400 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:10:35.831 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:12:28.936 [warning] TextEditor is closed/disposed
+2024-02-24 16:12:33.266 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:12:33.266 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:12:45.710 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:12:51.579 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:13:45.220 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:14:07.995 [error] Error: INVALID code lens resolved, lacks command: rust-lang.rust-analyzer
+	at d.resolveCodeLens (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:87092)
+2024-02-24 16:14:17.240 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:14:45.429 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:14:45.429 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:14:45.429 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:14:45.429 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:14:45.429 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:14:45.429 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:15:24.153 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:15:24.153 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:15:41.191 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:15:56.585 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:16:24.588 [warning] TextEditor is closed/disposed
+2024-02-24 16:16:24.627 [info] ExtensionService#_doActivateExtension serayuzgur.crates, startup: false, activationEvent: 'onLanguage:toml'
+2024-02-24 16:16:24.683 [info] ExtensionService#_doActivateExtension tamasfe.even-better-toml, startup: false, activationEvent: 'onLanguage:toml'
+2024-02-24 16:16:43.900 [warning] TextEditor is closed/disposed
+2024-02-24 16:34:44.889 [warning] TextEditor is closed/disposed
+2024-02-24 16:56:07.408 [warning] TextEditor is closed/disposed
+2024-02-24 16:56:09.570 [warning] TextEditor is closed/disposed
+2024-02-24 16:56:11.773 [warning] TextEditor is closed/disposed
+2024-02-24 16:56:52.220 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 16:57:21.331 [warning] TextEditor is closed/disposed
+2024-02-24 16:57:25.412 [warning] TextEditor is closed/disposed
+2024-02-24 16:59:59.901 [warning] TextEditor is closed/disposed
+2024-02-24 17:00:03.475 [warning] TextEditor is closed/disposed
+2024-02-24 17:00:59.008 [warning] TextEditor is closed/disposed
+2024-02-24 17:02:21.047 [warning] TextEditor is closed/disposed
+2024-02-24 20:56:56.314 [warning] TextEditor is closed/disposed
+2024-02-24 20:56:57.818 [warning] TextEditor is closed/disposed
+2024-02-24 20:56:58.973 [warning] TextEditor is closed/disposed
+2024-02-24 21:00:16.936 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 21:00:16.936 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 21:00:36.108 [warning] TextEditor is closed/disposed
+2024-02-24 21:01:19.765 [warning] TextEditor is closed/disposed
+2024-02-24 21:01:38.227 [warning] TextEditor is closed/disposed
+2024-02-24 21:01:59.324 [warning] TextEditor is closed/disposed
+2024-02-24 21:01:59.929 [warning] TextEditor is closed/disposed
+2024-02-24 21:02:20.301 [warning] TextEditor is closed/disposed
+2024-02-24 21:02:21.832 [warning] TextEditor is closed/disposed
+2024-02-24 21:07:09.735 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 21:07:09.735 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 21:07:09.735 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 21:16:07.578 [warning] TextEditor is closed/disposed
+2024-02-24 21:22:11.754 [warning] TextEditor is closed/disposed
+2024-02-24 21:48:54.476 [warning] TextEditor is closed/disposed
+2024-02-24 21:49:05.393 [warning] TextEditor is closed/disposed
+2024-02-24 22:03:18.648 [warning] TextEditor is closed/disposed
+2024-02-24 22:04:57.374 [warning] TextEditor is closed/disposed
+2024-02-24 22:20:29.140 [warning] TextEditor is closed/disposed
+2024-02-24 22:20:38.027 [warning] TextEditor is closed/disposed
+2024-02-24 22:30:40.247 [warning] TextEditor is closed/disposed
+2024-02-24 22:31:58.280 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:32:01.055 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:32:46.180 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:33:56.902 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:34:37.899 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:34:37.899 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:34:37.899 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:34:49.468 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:34:49.468 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:35:30.446 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:35:31.883 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:37:50.297 [warning] TextEditor is closed/disposed
+2024-02-24 22:37:53.473 [warning] TextEditor is closed/disposed
+2024-02-24 22:37:55.914 [warning] TextEditor is closed/disposed
+2024-02-24 22:38:00.114 [warning] TextEditor is closed/disposed
+2024-02-24 22:38:07.448 [warning] rust-lang.rust-analyzer - Code actions of kind 'source.fixAll.eslint 'requested but returned code action is of kind 'quickfix'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-24 22:39:13.598 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-24 22:39:13.647 [warning] Canceled
+2024-02-24 22:39:13.682 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at g.I [as value] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:927298)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:943089)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 22:39:13.682 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at set b [as b] (/opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:322364)
+	at /opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:323005
+	at g.value (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1018251)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:943089)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 22:39:13.682 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at w (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:41245)
+	at h (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:46293)
+	at ActionRunners._updateContextKeys (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:18419)
+	at s (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16862)
+	at RegisteredActionRunner.unregister (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:17005)
+	at RegisteredActionRunner.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:15658)
+	at ActionRunners.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16445)
+	at /home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19544
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19526)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 22:39:13.683 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at w (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:41245)
+	at h (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:46293)
+	at ActionRunners._updateContextKeys (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:18419)
+	at s (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16862)
+	at RegisteredActionRunner.unregister (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:17005)
+	at RegisteredActionRunner.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:15658)
+	at ActionRunners.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16445)
+	at /home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19544
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19526)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 22:39:13.683 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at w (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:41245)
+	at h (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:46293)
+	at ActionRunners._updateContextKeys (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:18419)
+	at s (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16862)
+	at RegisteredActionRunner.unregister (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:17005)
+	at RegisteredActionRunner.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:15658)
+	at ActionRunners.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16445)
+	at /home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19544
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19526)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 22:39:13.684 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at of (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:39:70738)
+	at Object.J_ (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:372:268)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9679)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 22:39:13.684 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at of (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:39:70738)
+	at Object.J_ (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:372:268)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9679)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-24 22:39:14.331 [info] Extension host with pid 2009 exiting with code 0
+2024-02-24 22:39:29.089 [info] Extension host with pid 46564 started
+2024-02-24 22:39:29.089 [info] Skipping acquiring lock for /home/mik3y/.config/Code/User/workspaceStorage/d6f994d19faecde5b742eed0232fe0b1.
+2024-02-24 22:39:29.105 [info] ExtensionService#_doActivateExtension znck.grammarly, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-02-24 22:39:29.302 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-24 22:39:29.406 [info] ExtensionService#_doActivateExtension serayuzgur.crates, startup: false, activationEvent: 'onLanguage:toml'
+2024-02-24 22:39:29.679 [info] ExtensionService#_doActivateExtension tamasfe.even-better-toml, startup: false, activationEvent: 'onLanguage:toml'
+2024-02-24 22:39:29.970 [info] ExtensionService#_doActivateExtension DioxusLabs.dioxus, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 22:39:30.140 [info] ExtensionService#_doActivateExtension evgeniypeshkov.syntax-highlighter, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 22:39:30.744 [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+2024-02-24 22:39:32.260 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-24 22:39:32.354 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2024-02-24 22:39:33.022 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2024-02-24 22:39:33.251 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-24 22:39:33.520 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-24 22:39:34.429 [info] Eager extensions activated
+2024-02-24 22:39:34.463 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:34.574 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:34.666 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:34.750 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:34.932 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:35.171 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:35.482 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:36.197 [info] ExtensionService#_doActivateExtension pest.pest-ide-tools, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:36.400 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-02-24 22:39:36.907 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-24 23:25:39.190 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-24 23:25:39.225 [warning] Canceled
+2024-02-24 23:25:39.228 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at g.I [as value] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:927298)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:943089)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 23:25:39.228 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at set b [as b] (/opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:322364)
+	at /opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:323005
+	at g.value (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1018251)
+	at r.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:943089)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 23:25:39.228 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at w (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:41245)
+	at h (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:46293)
+	at ActionRunners._updateContextKeys (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:18419)
+	at s (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16862)
+	at RegisteredActionRunner.unregister (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:17005)
+	at RegisteredActionRunner.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:15658)
+	at ActionRunners.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16445)
+	at /home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19544
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19526)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 23:25:39.228 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at w (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:41245)
+	at h (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:46293)
+	at ActionRunners._updateContextKeys (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:18419)
+	at s (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16862)
+	at RegisteredActionRunner.unregister (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:17005)
+	at RegisteredActionRunner.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:15658)
+	at ActionRunners.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16445)
+	at /home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19544
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19526)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 23:25:39.228 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at w (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:41245)
+	at h (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1081:46293)
+	at ActionRunners._updateContextKeys (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:18419)
+	at s (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16862)
+	at RegisteredActionRunner.unregister (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:17005)
+	at RegisteredActionRunner.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:15658)
+	at ActionRunners.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:663:16445)
+	at /home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19544
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/mik3y/.vscode/extensions/eamodio.gitlens-14.8.2/dist/gitlens.js:1041:19526)
+	at o (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 23:25:39.229 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at of (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:39:70738)
+	at Object.J_ (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:372:268)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9679)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-24 23:25:39.229 [error] Canceled: Canceled
+	at new f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at of (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:39:70738)
+	at Object.J_ (/home/mik3y/.vscode/extensions/rust-lang.rust-analyzer-0.3.1850-linux-x64/out/main.js:372:268)
+	at g.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9679)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-24 23:25:39.235 [info] Extension host with pid 46564 exiting with code 0

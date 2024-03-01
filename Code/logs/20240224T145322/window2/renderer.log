@@ -1,0 +1,6 @@
+2024-02-24 14:53:41.871 [info] Started local extension host with pid 2000.
+2024-02-24 14:53:49.296 [info] [perf] Render performance baseline is 25ms
+2024-02-24 14:53:52.411 [info] Extension host (LocalProcess pid: 2000) is unresponsive.
+2024-02-24 14:53:52.548 [info] Extension host (LocalProcess pid: 2000) is responsive.
+2024-02-24 14:53:52.608 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-02-24 22:54:38.381 [warning] Overlapping semantic tokens detected at lineNumber 1467, column 46

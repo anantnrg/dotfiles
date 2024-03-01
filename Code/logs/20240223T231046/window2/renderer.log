@@ -1,0 +1,5 @@
+2024-02-23 23:11:10.936 [info] Started local extension host with pid 1412.
+2024-02-23 23:11:22.421 [info] [perf] Render performance baseline is 26ms
+2024-02-23 23:11:27.231 [warning] Semantic token with invalid length detected at lineNumber 46, column 59
+2024-02-23 23:44:14.289 [info] Started local extension host with pid 7901.
+2024-02-23 23:44:17.270 [info] [perf] Render performance baseline is 26ms

@@ -1,0 +1,68 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "crates/encoding",
+    "crates/shaders",
+    "crates/tests",
+
+    "integrations/vello_svg",
+
+    "examples/headless",
+    "examples/with_winit",
+    "examples/with_bevy",
+    "examples/run_wasm",
+    "examples/scenes",
+    "examples/shapes",
+]
+
+[workspace.package]
+edition = "2021"
+version = "0.0.1"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/linebender/vello"
+
+[package]
+name = "vello"
+description = "An experimental GPU compute-centric 2D renderer"
+categories = ["rendering", "graphics"]
+keywords = ["2d", "vector-graphics"]
+
+# This crate is intended for publishing, but not ready yet
+publish = false
+
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[features]
+default = ["wgpu"]
+hot_reload = []
+buffer_labels = []
+
+[dependencies]
+bytemuck = { workspace = true }
+skrifa = { workspace = true }
+peniko = { workspace = true }
+wgpu = { workspace = true, optional = true }
+raw-window-handle = "0.6"
+futures-intrusive = "0.5.0"
+vello_encoding = { path = "crates/encoding" }
+wgpu-profiler = { workspace = true, optional = true }
+
+[workspace.dependencies]
+bytemuck = { version = "1.12.1", features = ["derive"] }
+skrifa = "0.15.4"
+peniko = "0.1.0"
+
+# NOTE: Make sure to keep this in sync with the version badge in README.md
+wgpu = { version = "0.19" }
+
+
+# Used for examples
+clap = "4.1.0"
+anyhow = "1.0"
+instant = { version = "0.1.12", features = ["wasm-bindgen"] }
+pollster = "0.3.0"
+wgpu-profiler = "0.16"

@@ -1,0 +1,10 @@
+[TS] Trying path /home/mik3y/.cargo/bin/pest-language-server...
+[TS] Using server path /home/mik3y/.cargo/bin/pest-language-server.
+[TS] Server version: v0.3.6
+[TS] Checking for updates...
+[TS] Update check timed out after 2000ms.
+[Info  - 23:11:42] Pest Language Server v0.3.6
+[Info  - 23:11:43] Checking for updates...
+[Info  - 23:17:27] Updated configuration from client.
+[Info  - 23:17:27] Reloading all diagnostics
+[Info  - 23:44:13] Pest Language Server shutting down :)

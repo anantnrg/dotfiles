@@ -1,0 +1,19 @@
+
+
+(defwidget tray_box []
+    (box :class "desk_clock" :space-evenly "false" :orientation "v" :spacing 3
+        (box :space-evenly "false" :orientation "h" :spacing "3" :halign "center"
+            (label :text h :class "desk_time desk_time_h")
+            (label :text " :" :class "desk_time desk_time_text")
+            (label :text m :class "desk_time desk_time_m")
+            (label :text p :class "desk_time desk_time_p"))
+        (box :space-evenly "false" :orientation "h" :spacing "3" :halign "center"
+            (label :text "Its " :class "desk_date desk_date_text")
+            (label :text day :class "desk_date desk_date_day")
+            (label :text ", " :class "desk_date desk_date_text")
+            (label :text month :class "desk_date desk_date_month")
+            (label :text " the " :class "desk_date desk_date_text")
+            (label :text date :class "desk_date desk_date_date")
+        )
+    )
+)

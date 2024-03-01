@@ -1,0 +1,11 @@
+[package]
+name = "duplit"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "duplit"
+path = "./duplit"
+
+[workspace]
+members = ["duplit", "duplit_cli"]

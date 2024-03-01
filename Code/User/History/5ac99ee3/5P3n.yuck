@@ -1,0 +1,14 @@
+(defwidget tray_event_box []
+  (eventbox :onhoverlost "$HOME/.config/eww/toggle_tray.sh"
+    (revealer :transition "slideleft" :reveal true :duration "10000ms" (tray_box))
+  )
+)
+
+(defwidget tray_box []
+  (box :class "desk_clock" :space-evenly "false" :orientation "v" :spacing 3
+    (box :space-evenly "false" :orientation "h" :spacing "3" :halign "center"
+      (label :text {mpris == "{}" ? false : mpris.title} :class "desk_time desk_time_p"))
+    (box :space-evenly "false" :orientation "h" :spacing "3" :halign "center"
+    )
+  )
+)

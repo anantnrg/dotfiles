@@ -1,0 +1,21 @@
+;; Time and date
+(defpoll h :interval "120s" `date +'%I'`)
+(defpoll m :interval "60s" `date +'%M'`)
+(defpoll s :interval "1s" `date +'%S'`)
+(defpoll p :interval "5400s" `date +'%p'`)
+(defpoll day :interval "5400s" `date +'%A'`)
+(defpoll month :interval "5400s" `date +'%B'`)
+(defpoll bar_month :interval "1s" `date +'%b'`)
+(defpoll bar_date :interval "1s" `date +'%d'`)
+(defpoll date :interval "1s" `date +'%dXX' | sed -e 's/11XX/11th/' -e 's/12XX/12th/' -e 's/13XX/13th/' -e 's/1XX/1st/' -e 's/2XX/2nd/' -e 's/3XX/3rd/' -e 's/XX/th/'`)
+
+;; Usage and stuff
+(defpoll cpu_usage :interval "1s" `ewynfo cpu -i usage`)
+(defpoll mem_usage :interval "1s" `ewynfo memory -i usage`)
+(defpoll updates :interval "60s" `ewynfo os -i updates`)
+(defpoll network :interval "60s" `ewynfo network -i status`)
+(defpoll volume :interval "0.01s" `pamixer --get-volume`)
+
+;; Music control
+(defpoll mpris :interval "1s" :initial "{}" "exec scripts/mpris.sh")
+(deflisten mpris_positions :initial "{}" "$HOME/.config/eww/scripts/positions.sh")

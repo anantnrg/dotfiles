@@ -1,0 +1,8 @@
+// Import modules. These are "partial" SCSS files located in ./scss. Read the SCSS docs for more info.
+@use 'scss/desk_clock';
+@use 'scss/desk_tray';
+@use 'scss/bar';
+
+* {
+	font-family: "JetBrains Mono", monospace;
+}

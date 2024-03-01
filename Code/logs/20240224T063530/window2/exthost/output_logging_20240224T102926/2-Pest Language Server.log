@@ -1,0 +1,15 @@
+[TS] Trying path /home/mik3y/.cargo/bin/pest-language-server...
+[TS] Using server path /home/mik3y/.cargo/bin/pest-language-server.
+[TS] Server version: v0.3.6
+[TS] Checking for updates...
+[Info  - 10:29:36] Pest Language Server v0.3.6
+[Info  - 10:29:36] Checking for updates...
+[Info  - 10:29:39] Updated configuration from client.
+[Info  - 10:29:39] Reloading all diagnostics
+[Info  - 10:29:43] Updated configuration from client.
+[Info  - 10:29:43] Reloading all diagnostics
+[Info  - 10:29:45] Updated configuration from client.
+[Info  - 10:29:45] Reloading all diagnostics
+[Info  - 10:29:46] Updated configuration from client.
+[Info  - 10:29:46] Reloading all diagnostics
+[Info  - 11:59:04] Pest Language Server shutting down :)

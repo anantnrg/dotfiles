@@ -1,0 +1,22 @@
+{
+  "name": "template",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "serve": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@motion-canvas/core": "^3.12.1",
+    "@motion-canvas/2d": "*",
+    "@motion-canvas/ffmpeg": "^1.1.0",
+    "helpers": "0.0.0"
+  },
+  "devDependencies": {
+    "@motion-canvas/ui": "*",
+    "@motion-canvas/vite-plugin": "^3.12.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.0.0"
+  }
+}

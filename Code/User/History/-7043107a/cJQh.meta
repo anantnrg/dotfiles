@@ -1,0 +1,90 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "we utilize memory",
+      "targetTime": 0
+    },
+    {
+      "name": "memory is divided into two parts",
+      "targetTime": 0.75
+    },
+    {
+      "name": "lets see how they're different",
+      "targetTime": 1.5
+    },
+    {
+      "name": "integers",
+      "targetTime": 3.5
+    },
+    {
+      "name": "floats",
+      "targetTime": 4.25
+    },
+    {
+      "name": "booleans",
+      "targetTime": 5
+    },
+    {
+      "name": "last value pushed",
+      "targetTime": 5.75
+    },
+    {
+      "name": "first one to be popped off",
+      "targetTime": 6
+    },
+    {
+      "name": "efficient access to data",
+      "targetTime": 6.75
+    },
+    {
+      "name": "but most of the time",
+      "targetTime": 9.149999999999999
+    },
+    {
+      "name": "strings",
+      "targetTime": 9.899999999999999
+    },
+    {
+      "name": "vectors",
+      "targetTime": 10.649999999999999
+    },
+    {
+      "name": "sizes can change",
+      "targetTime": 11.399999999999999
+    },
+    {
+      "name": "cannot be stored in the stack",
+      "targetTime": 14.399999999999999
+    },
+    {
+      "name": "this is were the heap memory comes into play",
+      "targetTime": 15.149999999999999
+    },
+    {
+      "name": "store values of any size",
+      "targetTime": 16.65
+    },
+    {
+      "name": "can grow or shrink",
+      "targetTime": 17.4
+    },
+    {
+      "name": "unlike the stack",
+      "targetTime": 18.9
+    },
+    {
+      "name": "cannot directly access value",
+      "targetTime": 21.9
+    },
+    {
+      "name": "instead, you need to",
+      "targetTime": 22.999999999999996
+    },
+    {
+      "name": "create a pointer",
+      "targetTime": 23.749999999999996
+    }
+  ],
+  "seed": 302519928
+}

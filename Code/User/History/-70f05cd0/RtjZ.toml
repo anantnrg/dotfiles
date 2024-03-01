@@ -1,0 +1,6 @@
+[lib]
+name = "duplit"
+path = "./duplit"
+
+[workspace]
+members = ["duplit", "duplit_cli"]

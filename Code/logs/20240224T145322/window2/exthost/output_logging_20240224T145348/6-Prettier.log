@@ -1,0 +1,16 @@
+["INFO" - 14:54:04] Extension Name: esbenp.prettier-vscode.
+["INFO" - 14:54:04] Extension Version: 10.1.0.
+["ERROR" - 22:54:37] Invalid prettier configuration file detected.
+["ERROR" - 22:54:37] Cannot find package 'undefined' imported from /home/mik3y/videos/code/.prettierc
+Error: Cannot find package 'undefined' imported from /home/mik3y/videos/code/.prettierc
+    at new NodeError (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:21374:5)
+    at packageResolve (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:22354:9)
+    at moduleResolve (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:22386:20)
+    at defaultResolve (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:22473:16)
+    at resolve (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:22490:12)
+    at importFromFile (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:22505:16)
+    at loadExternalConfig (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:22524:24)
+    at loadConfig (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:22731:20)
+    at async loadPrettierConfig (file:///home/mik3y/videos/code/node_modules/prettier/index.mjs:23032:18)
+    at async Promise.all (index 0)
+["ERROR" - 22:54:37] Invalid prettier configuration file detected. See log for details.

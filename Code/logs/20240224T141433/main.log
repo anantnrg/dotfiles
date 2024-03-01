@@ -1,0 +1,7 @@
+2024-02-24 14:14:39.437 [info] update#setState idle
+2024-02-24 14:14:55.621 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-02-24 14:14:55.621 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 2031]: crashed with code 15 and reason 'killed'
+2024-02-24 14:14:56.781 [info] Extension host with pid 2051 exited with code: 0, signal: unknown.
+2024-02-24 14:15:09.623 [info] update#setState checking for updates
+2024-02-24 14:15:09.625 [info] update#setState available for download
+2024-02-24 14:15:13.998 [warning] No ptyHost heartbeat after 6 seconds

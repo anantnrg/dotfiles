@@ -1,0 +1,1 @@
+{"buildTargets":["all","clean","install","install_default_config","install_lib","strata","uninstall"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

@@ -1,0 +1,45 @@
+config = "{" , { (statement | let_statement) , [ ";" | "," ] } , "}" ;
+
+statement = identifier , "=" , value ;
+
+let_statement = "let" , identifier , "=" , value ;
+
+value = number | boolean | string | struct | array | version | expression | variable | measurement | datetime ;
+
+struct = "{" , { statement , [ ";" | "," ] } , "}" ;
+
+array = "[" , value , { "," , value } , "]" ;
+
+version = digit, { "." , digit } ;
+
+expression = "(" , term , { ("+" | "-") , term } , ")" ;
+
+term = factor , { ("*" | "/") , factor } ;
+
+factor = number | identifier | "(" , expression , ")" ;
+
+variable = "$" , identifier ;
+
+measurement = number , unit ;
+
+datetime = date | time | date_time ;
+
+date = digit , digit , "/" , digit , digit , "/" , digit , digit , digit , digit ;
+
+time = digit , digit , ":" , digit , digit , ":" , digit , digit ;
+
+date_time = date , " " , time ;
+
+identifier = letter , { letter | digit | "_" } ;
+
+number = digit , { digit } | digit , { digit } , "." , { digit } ;
+
+boolean = "true" | "false" ;
+
+string = "\"" , { character } , "\"" ;
+
+character = any printable ASCII character except "\"" ;
+
+letter = "a" | "b" | ... | "z" | "A" | "B" | ... | "Z" ;
+
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;

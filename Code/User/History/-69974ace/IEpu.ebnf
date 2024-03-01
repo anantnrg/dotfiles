@@ -1,0 +1,35 @@
+config = "{" , { (statement | let_statement) , [ ";" | "," ] } , "}" ;
+
+statement = identifier , "=" , value ;
+
+let_statement = "let" , identifier , "=" , value ;
+
+value = number | boolean | string | struct | array | version | expression | variable ;
+
+struct = "{" , { statement , [ ";" | "," ] } , "}" ;
+
+array = "[" , value , { "," , value } , "]" ;
+
+version = digit, { "." , digit } ;
+
+expression = "(" , term , { ("+" | "-") , term } , ")" ;
+
+term = factor , { ("*" | "/") , factor } ;
+
+factor = number | identifier | "(" , expression , ")" ;
+
+variable = "$" , identifier ;
+
+identifier = letter , { letter | digit | "_" } ;
+
+number = digit , { digit } | digit , { digit } , "." , { digit } ;
+
+boolean = "true" | "false" ;
+
+string = "\"" , { character } , "\"" ;
+
+character = any printable ASCII character except "\"" ;
+
+letter = "a" | "b" | ... | "z" | "A" | "B" | ... | "Z" ;
+
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;

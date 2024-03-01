@@ -1,0 +1,15 @@
+let home = "/home/user"
+
+{
+    version = 0.0.1,
+    number = 2,
+    boolean = true,
+    string = "this is a string",
+    string_literal = "this is \na string literal",
+    struct = {
+        key = "structs can hold all other values"
+    },
+    array = [
+        "list of elements"
+    ],
+}

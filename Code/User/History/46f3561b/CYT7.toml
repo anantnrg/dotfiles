@@ -1,0 +1,10 @@
+[package]
+name = "photon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glow = { git = "https://github.com/grovesNL/glow/" }
+glutin = "0.31"
+glutin_winit = "0.1"
+winit = "0.29.10"
